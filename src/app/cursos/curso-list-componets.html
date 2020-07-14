@@ -1,0 +1,28 @@
+<h2>Curso list</h2>
+
+<table class="table table-striped">
+    <thead>
+    <th>id</th>
+    <th>name</th>
+    <th>preco</th>
+    <th>code</th>
+    <th>duracao</th>
+    <th>rating</th>
+    <th>release</th>
+    
+</thead>
+<tbody>
+    <tr *ngFor="Curso">
+       
+        <td>{{ Curso.id }}</td>
+        <td>{{ curso.name }}</td>
+        <td>{{ curso.code }}</td>
+        <td>{{ curso.preco}}</td>
+        <td>{{ curso.duracao }}</td>
+        <td>{{ curso.rating }}</td>
+        <td>{{ curso.release }}</td>
+        
+        
+    </tr>
+</tbody>
+</table>
